@@ -1,0 +1,16 @@
+.textoInicial {
+    font-family: 'century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: rgba(100,100,100,0.5);
+}
+.dtxt {
+text-decoration-line: underline;
+text-decoration-color: rgb(77, 74, 74);
+}
+.skill1 {
+    font-size: medium;
+}
+.skill2 {
+    font-size: large;
+}
