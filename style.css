@@ -1,9 +1,19 @@
-.textoInicial {
-    font-family: 'century Gothic', 'Arial Narrow', Arial, sans-serif;
-}
 body {
-    background-color: rgba(100,100,100,0.5);
+    font-family: 'century Gothic', 'Arial Narrow', Arial, sans-serif;
+    background-color:#1B1F27;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
 }
+.top-bar{
+    
+}
+.icon {
+    width: 5%;
+}
+
+
+
 .dtxt {
 text-decoration-line: underline;
 text-decoration-color: rgb(77, 74, 74);
