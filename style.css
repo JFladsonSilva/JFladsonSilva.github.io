@@ -5,13 +5,23 @@ body {
     padding: 0;
     color: aliceblue;
 }
-.top-bar{
-    
+#conteiner {
+    width: 888px;
+    margin: auto;
+}
+.top-bar li, ul{
+    display: inline-block;
+    list-style: none;
+}
+.top-bar {
+    background-color: rgb(78, 75, 75);
 }
 .icon {
     width: 5%;
 }
-
+header {
+    text-align: center;
+}
 
 
 .dtxt {
