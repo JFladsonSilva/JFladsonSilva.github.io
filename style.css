@@ -47,6 +47,14 @@ header {
   border-radius: 50%;
   border: 5px solid white;
 }
+small{
+    display: block;
+}
+.icons {
+    width: 28px;
+    margin: 5px;
+}
+/* <!-- <MAIN></MAIN> --> */
 .dtxt {
   text-decoration-line: underline;
   text-decoration-color: rgb(77, 74, 74);
