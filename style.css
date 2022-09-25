@@ -1,36 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    font-family: 'century Gothic', 'Arial Narrow', Arial, sans-serif;
-    background-color:#1B1F27;
-    margin: 0;
-    padding: 0;
-    color: aliceblue;
+  font-family: "century Gothic", "Arial Narrow", Arial, sans-serif;
+  background-color: #1b1f27;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
 }
-#conteiner {
-    width: 888px;
-    margin: auto;
+/* TOP-BAR */
+nav{
+    display: flex;
+    padding: 15px;
 }
-.top-bar li, ul{
-    display: inline-block;
-    list-style: none;
+.nav-list {
+  display: flex;
+  list-style: none;
 }
-.top-bar {
-    background-color: rgb(78, 75, 75);
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 32px;
+
 }
 .icon {
-    width: 5%;
+  width: 4%;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+/* CONTEÚDO */
+#conteiner {
+  width: 888px;
+  margin: auto;
+}
+
 header {
-    text-align: center;
+  text-align: center;
+  border: 2px solid white;
 }
-
-
+he
+header img{
+    border-radius: 50%;
+}
 .dtxt {
-text-decoration-line: underline;
-text-decoration-color: rgb(77, 74, 74);
+  text-decoration-line: underline;
+  text-decoration-color: rgb(77, 74, 74);
 }
 .skill1 {
-    font-size: medium;
+  font-size: medium;
 }
 .skill2 {
-    font-size: large;
+  font-size: large;
 }
