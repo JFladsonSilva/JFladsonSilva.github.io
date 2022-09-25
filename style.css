@@ -37,7 +37,7 @@ a {
 }
 header {
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid #395B64;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("Imagens/Header-background2.jpeg");
   background-position: center;
@@ -45,7 +45,7 @@ header {
 }
 #foto {
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #395B64;
 }
 small{
     display: block;
@@ -55,9 +55,16 @@ small{
     margin: 5px;
 }
 /* <!-- <MAIN></MAIN> --> */
-.dtxt {
-  text-decoration-line: underline;
-  text-decoration-color: rgb(77, 74, 74);
+main img {
+  width: 28px;
+  margin: auto;
+}
+main{
+      text-align: center;
+      padding: 10px;
+}
+main p {
+  text-align: left;
 }
 .skill1 {
   font-size: medium;
