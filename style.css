@@ -91,12 +91,16 @@ h3 {
 }
 li {
   list-style: none;
+
 }
 .list1 {
   display: inline-block;
   text-align: left;
+  line-height: 22px;
 }
 .list2 {
   display: inline-block;
   text-align: left;
+  padding-left: 20px;
+  line-height: 22px;
 }
