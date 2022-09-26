@@ -31,6 +31,11 @@ a {
   text-decoration: none;
   color: white;
 }
+li a:hover{
+  background-color: #14C38E;
+  border-radius: 15px;
+  padding: 5px;
+}
 /* CONTEÚDO */
 #conteiner {
   width: 888px;
