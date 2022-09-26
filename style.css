@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "century Gothic", "Arial Narrow", Arial, sans-serif;
   background-color: #1b1f27;
@@ -9,42 +10,51 @@ body {
   padding: 0;
   color: aliceblue;
 }
+
 /* TOP-BAR */
 nav {
   display: flex;
   padding: 15px;
 }
+
 .nav-list {
   display: flex;
   list-style: none;
   margin: auto 0;
 }
+
 .nav-list li {
   letter-spacing: 2px;
   margin-left: 32px;
 }
+
 .icon {
   width: 4%;
   border: 3px solid #14C38E;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
-li a:hover{
+
+li a:hover {
   background-color: #14C38E;
   border-radius: 15px;
   padding: 5px;
 }
+
 /* CONTEÚDO */
 #conteiner {
   width: 888px;
   margin: auto;
 }
-#conteiner2{
+
+#conteiner2 {
   width: 700px;
-      margin: auto;
+  margin: auto;
 }
+
 header {
   text-align: center;
   border: 2px solid #14C38E;
@@ -53,59 +63,94 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 #foto {
   border-radius: 50%;
   border: 5px solid #14C38E;
 }
-small{
-    display: block;
+
+small {
+  display: block;
 }
+
 .icons {
-    width: 28px;
-    margin: 5px;
+  width: 28px;
+  margin: 5px;
 }
+
 /* <!-- <MAIN></MAIN> --> */
+main h2 {
+  text-decoration: underline #14C38E;
+}
 main img {
   width: 28px;
   margin: auto;
 }
-main{
-      text-align: center;
-      padding: 10px 0;
+
+main {
+  text-align: center;
+  padding: 10px 0;
 }
+
 .intro {
   color: #14C38E;
 }
+
 main p {
   text-align: left;
 }
-.description{
+
+.description {
   padding-top: 10px;
   line-height: 20px;
   font-weight: 520;
 }
+
 h3 {
   text-align: left;
-  padding: 10px 0 0px 0; 
+  padding: 10px 0 0px 0;
   padding-top: 20px;
 }
+
 .dp {
   color: #14C38E;
-  
+
   text-align: left;
 }
+
 li {
   list-style: none;
 
 }
+
 .list1 {
   display: inline-block;
   text-align: left;
   line-height: 22px;
 }
+
 .list2 {
   display: inline-block;
   text-align: left;
   padding-left: 20px;
   line-height: 22px;
+}
+/* ---------------------Não mecher acima----------------------- */
+section img {
+  width: 250px;
+}
+.technologies {
+  padding: 20px;
+  text-decoration: underline #14C38E;
+}
+section{
+  text-align: center;
+  padding: 20px;
+  
+}
+figure {
+  display: inline-block;
+}
+figcaption{
+  font-weight: 500;
 }
