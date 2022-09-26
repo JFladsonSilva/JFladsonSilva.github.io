@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1 id="head">Fladson Silva</h1>
-    <img id="foto" src="Imagens/foto.jpg" alt="foto de Fladson Silva" width="150px">
-    <p>
-        <strong>Cidade:</strong>Fortaleza <br>
-        <strong>Telefone:</strong>85 992197365 <br>
-        <strong>Nacionalidade:</strong>Brasileiro <br>
-        <strong>Email:</strong><a href="mailto: fladsonsilva1@gmail.com"> fladsonsilva1@gmail.com</a><hr><br>
-    </p>
-<h2 id="skills">Habilidades</h2>
-        <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li><strong>Comunicação</strong></li>
-            <li><strong>Trabalho em equipe</strong></li>
-        </ul><hr>
-<p><strong>Links úteis</strong> </p>
-    <a href="#foto">Clique aqui para ir até minha foto</a><br>
-    <a href="https://canaltech.com.br/" target="_blank">Blog que gosto.</a><br>
-    <a href="#head">Cabeçalho</a><br>
-    <a href="#skills">Seção Habilidades</a><br>
+    <!-- /* TOP-BAR */ -->
+    <nav>
+        <img class="icon" src="Imagens/Icon_Dev.jpeg" alt="Icon dev">
+        <ul class="nav-list">
+            <li><a href="#foto">Home</a></li>
+            <li><a href="#foto">Sobre mim</a></li>
+            <li><a href="#foto">Habilidades</a></li>
+            <li><a href="#foto">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- CONTEUDO -->
+
+    <div id="conteiner">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <img id="foto" src="Imagens/foto.jpg" alt="foto de Fladson Silva" width="150px">
+            <h1 class="textoInicial">Fladson Silva</h1>
+            <small>Web Development Student</small>
+            <a href="https://www.linkedin.com/in/jfladsonsilva/" target="_blank"><img class="icons"
+                    src="Imagens/linkedin (3).png" alt="icon-linkedin"></a>
+            <a href="https://github.com/JFladsonSilva" target="_blank"><img class="icons" src="Imagens/github.png"
+                    alt="icon-Github">
+                <a href="https://wa.me/5585992197365" target="_blank"><img class="icons" src="Imagens/whatsapp.png"
+                        alt="icon-whatsapp"></a>
+
+        </header>
+
+        <!-- <MAIN></MAIN> -->
+        <div id="conteiner2">
+            <main>
+                <img src="Imagens/info.png" alt="">
+                <h2>Sobre mim</h2>
+                <p class="description"><strong class="intro">Olá, me chamo Fladson</strong>. Sou brasileiro, natural de
+                    Fortaleza, capital do Ceará, sou estudante de desenvolvimento web na Trybe e
+                    planejo construir uma carreira sólida no mundo da tecnologia.</p>
+                <h3>Detalhes pessoais</h3>
+            </main>
+            <ul class="list1">
+                <li><strong class="dp">Cidade</strong></li>
+                <li><strong class="dp">Telefone</strong></li>
+                <li><strong class="dp">País</strong></li>
+                <li><strong class="dp">Email</strong></li>
+            </ul>
+
+            <ul class="list2">
+                <li>Fortaleza</li>
+                <li>+55 85992197365</li>
+                <li>Brasil</li>
+                <li><a href="mailto: fladsonsilva1@gmail.com">fladsonsilva1@gmail.com</a></li>
+            </ul>
+            <section>
+                <h2 class="technologies">Tecnologias</h2>
+                <figure>
+                    <img src="Imagens/icons8-javascript-480.png" alt="JS logo">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagens/html-5.png" alt="html logo">
+                    <figcaption>HTML</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagens/css-3.png" alt="css logo">
+                    <figcaption>CSS</figcaption>
+                </figure>
+                <figure>
+                    <img src="Imagens/icons8-git-480.png" alt="git logo">
+                    <figcaption>Git</figcaption>
+                </figure>
+            </section>
+        </div>
+    </div>
 
 </body>
+
 </html>
