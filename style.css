@@ -39,7 +39,7 @@ a {
 }
 
 li a:hover {
-  background-color: #14C38E;
+  color: #14C38E;
   border-radius: 15px;
   padding: 5px;
 }
